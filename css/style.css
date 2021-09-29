@@ -6,6 +6,26 @@ html {
     background-color: #7878ea;
 }
 
+img {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    padding-left: 30px;
+    padding-top: 100px;
+}
+.mario {
+    padding-top: 19px;
+}
+
+div {
+    float: left;
+}
+
+.picposition {
+      margin-top: -110px;
+  }
+
+
 nav {
     height: 80px;
     width: 100%;
@@ -53,7 +73,7 @@ a {
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     text-align: center;
@@ -65,4 +85,26 @@ a {
 
 .footer1 {
     color: black;
+}
+
+.summarize {
+    left: 20px;
+    top: 110px;
+    width: 300px;
+    text-align: center;
+}
+
+@media screen and (max-device-width: 800px) {
+   .img {
+       width: 20%;
+       float: top;
+   }
+}
+
+@media screen and (min-device-width: 800px) {
+    .div {
+        width: 10px;
+        margin: 8px;
+    }
+
 }
