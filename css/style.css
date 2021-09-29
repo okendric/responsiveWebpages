@@ -92,6 +92,10 @@ a {
     color: black;
 }
 
+.splasha {
+    width: 900px;
+}
+
 /*Center text on content blocks about page*/
 .summarize {
     left: 50px;
@@ -112,12 +116,24 @@ a {
         float: top;
         width: 90%;
         padding-left: 10px;
+        padding-top: 5px;
     }
 
     .container {
         width: 100%;
         margin-left: 13%;
+        height: 210px;
     }
+
+    .footer1 {
+        width: 40%;
+    }
+
+    .splasha {
+        margin-left: 30%;
+        font-size: 350%;
+    }
+
 }
 
 @media screen and (min-device-width: 800px) {
@@ -144,9 +160,8 @@ a {
     }
 
     .container {
-        text-align: center;
         width: 75%;
         margin-left: 13%;
-        background-position: center;
+        position: relative;
     }
 }
