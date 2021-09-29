@@ -9,22 +9,20 @@ html {
 img {
     width: 300px;
     height: 300px;
-    margin-right: 20px;
     padding-left: 30px;
     padding-top: 100px;
-}
-.mario {
-    padding-top: 19px;
 }
 
 div {
     float: left;
 }
 
+/*Content blocks*/
 .picposition {
-      margin-top: -110px;
-  }
-
+    width: 300px;
+    height: 300px;
+    padding-left: 30px;
+}
 
 nav {
     height: 80px;
@@ -51,9 +49,17 @@ h1 {
 p {
     padding-left: 10px;
     margin-bottom: 20px;
-    text-align: left;
     position: relative;
     color: #ffffff;
+}
+
+/*Paragraph text home page*/
+.phome {
+    text-align: left;
+    color: #ffffff;
+    padding-left: 225px;
+    float: left;
+    width: 25%;
 }
 
 a {
@@ -66,10 +72,9 @@ a {
 
 .container {
     background-color: #000000;
-    margin-left: 220px;
-    margin-right: 220px;
     position: center;
     color: white;
+    width: 100%;
 }
 
 .footer {
@@ -87,24 +92,61 @@ a {
     color: black;
 }
 
+/*Center text on content blocks about page*/
 .summarize {
-    left: 20px;
+    left: 50px;
     top: 110px;
-    width: 300px;
+    width: 250px;
     text-align: center;
 }
 
 @media screen and (max-device-width: 800px) {
-   .img {
-       width: 20%;
-       float: top;
-   }
+    .picposition {
+        width: 100%;
+        float: top;
+        margin-bottom: 150px;
+    }
+
+    .phome {
+        margin-bottom: 0;
+        float: top;
+        width: 90%;
+        padding-left: 10px;
+    }
+
+    .container {
+        width: 100%;
+        margin-left: 13%;
+    }
 }
 
 @media screen and (min-device-width: 800px) {
-    .div {
-        width: 10px;
-        margin: 8px;
+    .picposition {
+        width: 250px;
+        height: 250px;
+        padding-left: 30px;
+        margin: 75px;
     }
 
+    img {
+        width: 250px;
+        height: 250px;
+        padding-left: 50px;
+        padding-top: 100px;
+    }
+
+    .phome {
+        top: 5px;
+        float: left;
+        width: 10%;
+        padding-left: 25%;
+
+    }
+
+    .container {
+        text-align: center;
+        width: 75%;
+        margin-left: 13%;
+        background-position: center;
+    }
 }
